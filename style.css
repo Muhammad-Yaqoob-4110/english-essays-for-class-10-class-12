@@ -1,0 +1,55 @@
+html {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.bg-light {
+  background: white;
+  padding: 14px 15px;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+}
+
+.big-listbox-heading h3 {
+  height: auto;
+  background: linear-gradient(to right, #f8f9fa, #f9fafb);
+  padding: 14px 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+.big-listbox-list {
+  display: flex;
+  flex-flow: wrap;
+  padding: 10px 0;
+  margin: 0;
+  list-style: none;
+}
+.big-listbox-list li {
+  width: 350px;
+  font-family: sans-serif;
+}
+.no-lightbox {
+  text-decoration: none;
+}
+.big-listbox-list-span:hover {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px dotted #000;
+}
+
+.big-listbox-list-span {
+  text-decoration: underline;
+  color: #454545;
+}
+.big-listbox {
+  margin: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+  margin-bottom: 20px;
+}
